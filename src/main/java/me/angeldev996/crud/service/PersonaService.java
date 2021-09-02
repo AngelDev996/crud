@@ -24,18 +24,17 @@ public class PersonaService implements InterfazPersonaService {
 	
 	
 	@Override
-	public List<Persona> listar() {
-		// TODO Auto-generated method stub
+	public List<Persona> listar() { //Metodo que lista los objetos
 		return (List<Persona>)data.findAll();
 	}
 
 	@Override
-	public Optional<Persona> ListarId(int id) { 
+	public Optional<Persona> ListarId(int id) {
 		return data.findById(id);
 	}
 
 	@Override
-	public int save(Persona p) {
+	public int save(Persona p) { //Metodo que guarda el objeto
 
 		int res=0;
 		Persona persona = data.save(p);
@@ -48,7 +47,7 @@ public class PersonaService implements InterfazPersonaService {
 	}
 
 	@Override
-	public void delete(int id) {
+	public void delete(int id) {//Metodo que elimina el objeto
 
 		data.deleteById(id);
 		
