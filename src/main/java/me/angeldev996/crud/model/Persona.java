@@ -1,3 +1,6 @@
+//Autor: Angel Valladares
+//Date: 01-09-2021
+
 package me.angeldev996.crud.model;
 
 import javax.persistence.Entity;

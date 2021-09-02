@@ -1,3 +1,5 @@
+//Autor: Angel Valladares
+//Date: 01-09-2021
 function eliminar(id){
 
   Swal.fire({
