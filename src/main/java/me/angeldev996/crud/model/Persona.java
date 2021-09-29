@@ -11,7 +11,7 @@ import javax.persistence.Table;
 
 
 /*
- * Este programa necesita unicamente una base de datos vacia (Sin Tablas) solo se necesita la base con el nombre especificado en application.properties
+ * Este programa necesita unicamente una DB vacia (Sin Tablas) solo se necesita la DB con el nombre especificado en application.properties
  * 
  */
 @Entity
